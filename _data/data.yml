@@ -18,23 +18,15 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I am an experienced SRE professional with a successful track record of managing and leading critical systems 
-      at NAVER Search since 2017. In my previous role, I developed a database product that provided me with valuable 
-      insights into the complexities of large-scale data systems. Now, I am eager to leverage my experience and 
-      knowledge to improve SRE tech and culture.
+      I am an experienced software engineer with expertise in SRE and database system. For the past few years, 
+      I have been working at NAVER Corp, where I have led an engineering team and developed integrated SRE systems. 
+      My current focus is on building and maintaining a global-scale time-series database platform based on 
+      VictoriaMetrics. I have a strong command of programming languages such as Python, C and Java, and 
+      I have presented talks and interviews on my work in Korean.
       
-      To achieve this, I believe in a data-driven approach that uses metrics and analytics to identify areas 
-      for improvement. I am well-versed in using tools like Prometheus and Grafana to monitor system performance 
-      and detect anomalies. By analyzing this data, I can develop effective strategies to improve system reliability 
-      and reduce downtime.
-      
-      Additionally, I am passionate about fostering a culture of collaboration and continuous improvement. I believe 
-      in creating an environment where team members feel empowered to share their ideas and work together to solve 
-      complex problems. With my strong leadership skills and ability to communicate effectively across departments, 
-      I can help cultivate a culture of innovation and success.
-      
-      Overall, I am a highly skilled SRE professional with a deep commitment to driving organizational excellence 
-      through data-driven approaches and collaborative team efforts.
+      During my master's degree program, I focused my research on recommender systems, which has given me a strong 
+      foundation in this area. My experience in both academia and industry has equipped me with a unique skill set 
+      that combines technical expertise with strategic thinking, making me a valuable asset to any team.
 
 education:
     title: Education
@@ -53,33 +45,45 @@ experiences:
         time: 2017 - Present
         company: NAVER Corp, Republic of Korea
         details: |
-          (2023 - Present) Built a global-scale time series data base platform based on [VictoriaMetrics](https://victoriametrics.com/).
-            - [VictoriaMetrics: Time series in the Multiverse of Madness](https://deview.kr/2023/sessions/558) (Talk, Korean)
+          Since September 2022, I have been building and maintaining a global-scale time-series database platform based 
+          on VictoriaMetrics. The platform consists of hundreds of physical machines and Kubernetes pods, and it is 
+          challenging to deal with tens of millions of timeseries on a simple tech stack. I presented a talk about the 
+          platform in detail, titled 
+          ["VictoriaMetrics: Time series in the Multiverse of Madness"](https://deview.kr/2023/sessions/558) in Korean.
           
-          (2020 - 2022) Lead a team consist of from 2 members to 9 members.
-            - [Search Engine and SRE Platform for Global Web Search System](https://tv.naver.com/v/20312678) (Talk, Korean)
-            - [[네이버 어벤저스] 검색 장애율 0%대 ‘철통방어선’은 바로 이곳](https://n.news.naver.com/article/138/0002102957) (Interview Article, Korean)
+          From 2020 to the beginning of 2022, I led an engineering team that developed an integrated SRE system.
+          The team started with two members, including me, and grew to a team of nine. During my tenure,
+          I presented a talk and gave a media interview about the team's story.
+          The talk was titled ["Search Engine and SRE Platform for Global Web Search System"](https://tv.naver.com/v/20312678)
+          in Korean, and the interview article was titled
+          ["[네이버 어벤저스] 검색 장애율 0%대 ‘철통방어선’은 바로 이곳"](https://n.news.naver.com/article/138/0002102957) in Korean.
           
-          (2017 - 2019) Built an SRE system.
-            - [SRE: Search Reliability Engineering](https://deview.kr/2018/schedule/253) (Talk, Korean)
+          From 2017 to 2019, I implemented an SRE system that includes functions such as monitoring, alerting, etc.
+          I had to define various functions, roles, and strategies. I presented a talk about my work titled
+          ["SRE: Search Reliability Engineering"](https://deview.kr/2018/schedule/253) in Korean.
+
       - role: Software Engineer
         time: 2016 - 2017
         company: TmaxSoft Inc., Republic of Korea
         details: |
-          Developed RDBMS product. Worked on query compiler and executor, especially in JOIN and GROUP BY algorithms 
-          with hash related features. In addition, participated in developing RDBMS monitoring product.
+          I developed [Relational Database Management Systems (RDBMS)](https://www.tmaxsoft.com/products/tibero/) and 
+          worked on query compiler and executor, particularly in JOIN and GROUP BY algorithms with hash-related features. 
+          Additionally, I participated in developing an RDBMS monitoring product, primarily using C and Java as 
+          programming languages.
 
 publications:
     title: Publications
     intro: |
-      During my masters degree, my research interest was about recommender systems.
+      During my master's degree program, my research focused on recommender systems. I completed my master's degree 
+      with a thesis titled ["Personalized Task Recommendation Considering Various Factors in the Internet of Things 
+      Environments."](http://library.kaist.ac.kr/search/detail/view.do?bibCtrlNo=649681&flag=dissertation)
     papers:
-      - title: An Empirical Study of the Use of Multi-Dimensional Contexts for Collaborative-Filtering-Based Service Recommendations in IoT Environments.
+      - title: An Empirical Study of the Use of Multi-Dimensional Contexts for Collaborative-Filtering-Based Service Recommendations in IoT Environments. (Poster Paper)
         link: "https://rdcu.be/c94E5"
         authors: Joo-Sik Son, Han-Gyu Ko, and In-Young Ko.
         conference: In Proceedings of the 15th International Conference on Web Engineering (ICWE 2015)
 
-      - title: Multi-Aspect Collaborative Filtering based on Linked Data for Personalized Recommendation
+      - title: Multi-Aspect Collaborative Filtering based on Linked Data for Personalized Recommendation (Poster Paper)
         link: "https://dl.acm.org/doi/10.1145/2740908.2742780"
         authors: Han-Gyu Ko, Joo-Sik Son, and In-Young Ko
         conference: Proceedings of the 24rd International World Wide Web Conference (WWW 2015)
@@ -87,29 +91,22 @@ publications:
       - title: Analysis on Collaborative Filtering Methods for Multi-dimensional Context-aware Service Recommendation
         link: "http://hdl.handle.net/10203/211203"
         authors: Joo-Sik Son, Han-Gyu Ko, and In-Young Ko
-        conference: n Proceedings of 2015 Korea Conference on Software Engineering (KCSE 2015)
+        conference: Proceedings of 2015 Korea Conference on Software Engineering (KCSE 2015)
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Skills
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Site Reliability Engineering
+        level: 100%
+      - name: Time-series Database
         level: 95%
-
-      - name: Ruby on Rails
+      - name: Relational Database
+        level: 90%
+      - name: Python
+        level: 90%
+      - name: C/C++
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+      - name: Java/Kotlin
+        level: 85%
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
