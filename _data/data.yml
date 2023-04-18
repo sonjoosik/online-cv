@@ -16,13 +16,13 @@ sidebar:
     github: sonjoosik
 
 career-profile:
-    title: Career Profile
+    title: Son, Joo Sik (손주식)
     summary: |
-      I am an experienced software engineer with expertise in SRE and database system. For the past few years, 
-      I have been working at NAVER Corp, where I have led an engineering team and developed integrated SRE systems. 
-      My current focus is on building and maintaining a global-scale time-series database platform based on 
-      VictoriaMetrics. I have a strong command of programming languages such as Python, C and Java, and 
-      I have presented talks and interviews on my work in Korean.
+      I am an experienced software engineer with expertise in Site Reliability Engineering(SRE) and database system. 
+      For the past few years, I have been working at NAVER Corp, where I have led an engineering team and developed 
+      integrated SRE systems. My current focus is on building and maintaining a global-scale time-series database 
+      platform. Throughout my career, I have utilized various programming languages, including Python, Java, and C, 
+      to develop the tools required by my customers. 
       
       During my master's degree program, I focused my research on recommender systems, which has given me a strong 
       foundation in this area. My experience in both academia and industry has equipped me with a unique skill set 
@@ -45,14 +45,16 @@ experiences:
         time: 2017 - Present
         company: NAVER Corp, Republic of Korea
         details: |
-          Since September 2022, I have been building and maintaining a global-scale time-series database platform based 
-          on VictoriaMetrics. The platform consists of hundreds of physical machines and Kubernetes pods, and it is 
-          challenging to deal with tens of millions of timeseries on a simple tech stack. I presented a talk about the 
-          platform in detail, titled 
+          Since September 2022, I have been building and maintaining a global-scale Time-Series Database(TSDB) platform 
+          based on a open-source TSDB called [VictoriaMetrics](https://victoriametrics.com/). The platform consists of 
+          hundreds of physical machines and Kubernetes pods, and it is challenging to deal with tens of millions of 
+          timeseries on a simple tech stack. I presented a talk about the platform in detail, titled 
           ["VictoriaMetrics: Time series in the Multiverse of Madness"](https://deview.kr/2023/sessions/558) in Korean.
           
-          From 2020 to the beginning of 2022, I led an engineering team that developed an integrated SRE system.
-          The team started with two members, including me, and grew to a team of nine. During my tenure,
+          From 2020 to the beginning of 2022, I led an engineering team that developed an integrated SRE system which 
+          monitors the large scale distributed system "NAVER Search." It monitors hundreds of search services and detects
+          anomalies based on metrics and logs collected from tens of thousands of servers. 
+          The team started with two members, including me, and grew to a team of nine. During my tenure as the leader,
           I presented a talk and gave a media interview about the team's story.
           The talk was titled ["Search Engine and SRE Platform for Global Web Search System"](https://tv.naver.com/v/20312678)
           in Korean, and the interview article was titled
